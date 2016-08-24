@@ -34,4 +34,10 @@
     <string name="getBike">Get a Bike</string>
     <string name="becomeDriver">Become a Driver</string>
 
+    <!-- Agreement -->
+    <string name="rate">Rate Agreement</string>
+    <string name="rate_content_default">Rp. 50.000,00 for the first 10Km than Rp. 5.000,00/Km</string>
+    <string name="rate_content_car">Rp. 25.000,00 for the first 10Km than Rp. 3.000,00/Km</string>
+    <string name="rate_content_bike">Rp. 10.000,00 for the first 10Km than Rp. 1.500,00/Km</string>
+
 </resources>
