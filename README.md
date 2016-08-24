@@ -7,8 +7,9 @@ Website : [http://jakewharton.github.io/butterknife/](http://jakewharton.github.
 Github : [https://github.com/JakeWharton/butterknife](https://github.com/JakeWharton/butterknife)
 
 *License*
-Copyright 2013 Jake Wharton
 ```
+Copyright 2013 Jake Wharton
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
