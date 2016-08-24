@@ -2,6 +2,8 @@ package com.tgwarrior.travelmockup;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -37,5 +39,19 @@ public class AgreementActivity extends ActionBarActivity {
             title.setText(bikeTitle);
             rateContent.setText(contentBike);
         }
+
+        okBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("Check", "ok");
+            }
+        });
+
+        cancelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("Check", "cancel");
+            }
+        });
     }
 }
