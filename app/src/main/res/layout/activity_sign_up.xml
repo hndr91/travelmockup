@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/size_16"
     android:paddingRight="@dimen/size_16"
     android:paddingTop="@dimen/size_16"
+    android:background="@color/indigo_500"
     tools:context="com.tgwarrior.travelmockup.SignUpActivity">
 
     <LinearLayout
@@ -20,7 +21,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/size_48"
             android:layout_marginBottom="@dimen/size_8"
-            android:hint="@string/name"/>
+            android:hint="@string/name"
+            android:textColor="@color/pink_200" />
 
         <EditText
             android:id="@+id/editEmail"
@@ -28,7 +30,8 @@
             android:layout_height="@dimen/size_48"
             android:layout_marginBottom="@dimen/size_8"
             android:hint="@string/email"
-            android:inputType="textEmailAddress"/>
+            android:inputType="textEmailAddress"
+            android:textColor="@color/pink_200" />
 
         <EditText
             android:id="@+id/editMobile"
@@ -36,14 +39,17 @@
             android:layout_height="@dimen/size_48"
             android:layout_marginBottom="@dimen/size_8"
             android:hint="@string/mobile"
-            android:inputType="phone"/>
+            android:inputType="phone"
+            android:textColor="@color/pink_200" />
 
         <Button
             android:id="@+id/signUpBtn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/size_48"
             android:layout_marginTop="@dimen/size_48"
-            android:text="@string/sign_up"/>
+            android:text="@string/sign_up"
+            android:background="@color/pink_200"
+            android:textColor="@color/white"/>
 
 
     </LinearLayout>

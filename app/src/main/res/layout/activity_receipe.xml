@@ -15,15 +15,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="5"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/size_8"
-            android:text="@string/car"
+            android:text="@string/arrive"
             android:textSize="@dimen/text_32"
             android:textStyle="bold"
             android:textColor="@color/white"
@@ -34,21 +33,43 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/size_32"
             android:padding="@dimen/size_8"
-            android:text="@string/rate"
+            android:text="@string/detail"
             android:textSize="@dimen/text_24"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:gravity="center_horizontal" />
 
         <TextView
-            android:id="@+id/rate_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="@dimen/size_16"
-            android:text="@string/rate_content_default"
+            android:text="@string/distance"
             android:textSize="@dimen/text_18"
             android:textColor="@color/indigo_100"
             android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/size_8"
+            android:paddingRight="@dimen/size_8"
+            android:paddingBottom="@dimen/size_8"
+            android:text="@string/fee"
+            android:textSize="@dimen/text_18"
+            android:textColor="@color/indigo_100"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_8"
+            android:paddingTop="@dimen/size_8"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:gravity="top|left"
+            android:hint="@string/comments"
+            android:textColor="@color/white"
+            android:scrollbars="vertical"/>
 
     </LinearLayout>
 
@@ -56,28 +77,18 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="2">
-
-        <Button
-            android:layout_above="@+id/cancelBtn"
-            android:id="@+id/okBtn"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/size_48"
-            android:layout_marginBottom="@dimen/size_16"
-            android:text="@string/ok"
-            android:textSize="@dimen/text_24"
-            android:background="@color/pink_200"
-            android:textColor="@color/white"/>
+        android:layout_weight="1">
 
         <Button
             android:layout_alignParentBottom="true"
-            android:id="@+id/cancelBtn"
+            android:id="@+id/submitBtn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/size_48"
-            android:text="@string/cancel"
+            android:text="@string/submit"
             android:textSize="@dimen/text_24"
-            android:background="@color/pink_100"
-            android:textColor="@color/white"/>
+            android:background="@color/pink_200"
+            android:textColor="@color/white"
+            android:textAllCaps="true"/>
 
     </RelativeLayout>
 

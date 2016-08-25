@@ -1,5 +1,6 @@
 package com.tgwarrior.travelmockup;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -43,7 +44,9 @@ public class AgreementActivity extends ActionBarActivity {
         okBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("Check", "ok");
+                //Log.d("Check", "ok");
+                Intent i = new Intent(getBaseContext(), PickUpActivity.class);
+                startActivity(i);
             }
         });
 
