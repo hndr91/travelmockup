@@ -46,6 +46,13 @@
     <string name="distance">Distance : 80Km</string>
     <string name="fee">Fee : Rp. 50.000,00</string>
     <string name="comments">Tell us about your journey with us . . .</string>
-    <string name="submit">Submit</string>
-
+    <string name="submit">SUBMIT</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC01tW8XpwtqjtSU7pb61Tk8ET7HSfjZ6w</string>
+    <string name="thank">TERIMA KASIH</string>
+    <string name="rincian">RINCIAN TAGIHAN</string>
+    <string name="end_driving">PERJALANAN SELESAI</string>
+    <string name="kritik">KRITIK DAN SARAN</string>
+    <string name="jarak">JARAK : </string>
+    <string name="total">TOTAL : </string>
+    <string name="kosong">-</string>
 </resources>

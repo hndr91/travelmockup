@@ -10,7 +10,7 @@
     android:orientation="vertical"
     android:weightSum="6"
     android:background="@color/indigo_500"
-    tools:context="com.tgwarrior.travelmockup.AgreementActivity">
+    tools:context="com.keltech.travel.AgreementActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

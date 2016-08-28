@@ -1,7 +1,9 @@
-package com.tgwarrior.travelmockup;
+package com.keltech.travel;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+
+import com.tgwarrior.travelmockup.R;
 
 public class ReceipeActivity extends ActionBarActivity {
 
